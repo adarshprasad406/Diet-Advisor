@@ -9,8 +9,8 @@ It is built using Streamlit, a Python library that turns scripts into interactiv
 
 📖 Background
 Maintaining proper potassium levels is critical in CKD patients:
-
-< 3.5 mmol/L → Low potassium (hypokalemia): requires potassium-rich foods
+<
+3.5 mmol/L → Low potassium (hypokalemia): requires potassium-rich foods
 
 3.5 to 5.0 mmol/L → Normal potassium: generally no dietary change
 
