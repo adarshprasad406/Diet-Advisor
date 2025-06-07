@@ -1,37 +1,22 @@
-🧬 Clinical Dietary Advisor for Potassium Levels (Streamlit App)
+🧬 Clinical Dietary Advisor for Potassium Levels
+A Streamlit-based web app that provides personalized dietary recommendations based on a patient's potassium level and kidney disease status. Built as a lightweight Clinical Decision Support System (CDSS) to assist healthcare decision-making.
+
+📖 Problem Statement
+In patients with Chronic Kidney Disease (CKD), maintaining optimal potassium levels is crucial:
+
+🟡 Low potassium (< 3.5 mmol/L) → Risk of muscle weakness & irregular heartbeats. Recommend potassium-rich foods.
+
+🟢 Normal (3.5 – 5.0 mmol/L) → No immediate dietary change unless on special medications.
+
+🔴 High potassium (> 5.0 mmol/L) → Dangerous. Recommend avoiding potassium-rich foods.
 
 
-✅ Problem Overview
-This project is a Clinical Decision Support System (CDSS) that provides personalized dietary advice based on a patient's potassium level and whether they have chronic kidney disease (CKD).
+💡 What the App Does
 
-It is built using Streamlit, a Python library that turns scripts into interactive web apps.
-
-
-📖 Background
-Maintaining proper potassium levels is critical in CKD patients:
-
-<3.5 mmol/L → Low potassium (hypokalemia): requires potassium-rich foods
-
-3.5 to 5.0 mmol/L → Normal potassium: generally no dietary change
-
->5.0 mmol/L → High potassium (hyperkalemia): requires dietary restriction
-
-
-🎯 App Features
-📥 User Inputs:
-
-Potassium level (float)
-
-CKD status (Yes/No)
-
-
-💡 Outputs:
-
-Health warning if potassium is too high/low
-
-Recommended foods to eat
-
-Foods to avoid (if needed)
-
-Simple, readable layout using Streamlit UI
-
+| ✅ Feature          | Description                                          |
+| ------------------ | ---------------------------------------------------- |
+| 🧪 Input Fields    | Potassium level (float) and CKD status (Yes/No)      |
+| 📋 Smart Logic     | Determines whether the level is low, normal, or high |
+| 🍌 Food Advice     | Recommends foods to eat and avoid based on input     |
+| ⚠️ Health Warnings | Alerts for hypo-/hyperkalemia based on the value     |
+| 🌐 Streamlit UI    | Interactive web interface, mobile-friendly           |
