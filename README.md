@@ -15,7 +15,6 @@ Maintaining proper potassium levels is critical in CKD patients:
 3.5 to 5.0 mmol/L → Normal potassium: generally no dietary change
 
 > 5.0 mmol/L → High potassium (hyperkalemia): requires dietary restriction
-> 
 
 🎯 App Features
 📥 User Inputs:
